@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Build outputs
+build/
+dist/
+out/
+Debug/
+Release/
+*.o
+*.obj
+*.elf
+*.out
+*.map
+*.hex
+
+# CCS / TI generated files
+.metadata/
+.settings/
+*.launch
+
+# Do not upload full TI SDK or toolbox
+ti/
+mmwave_sdk*/
+radar_toolbox*/
+packages/ti/
+*.lib
+*.aer4f
+*.ae674
+*.xer4f
+*.xe674
+
+# Raw radar data
+data/raw/
+*.adc
+*.lvds
+*.pcap
+
+# OS
+.DS_Store
+Thumbs.db
